@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: rgb(0,0,33);
+            color:white;
+            font-family: popins;
+
+        }
+        .left{
+            font-size: 30px;;
+        }
+        nav{
+            display: flex;
+            font-size: 20px;
+            justify-content: space-around;
+            align-items: center;
+            height:90px;
+            background-color: rgb(2, 2, 78);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        } 
+        nav ul li{
+            list-style:none;
+            margin:0 23px;
+           
+        }
+
+        nav ul li:hover{
+            color:rgb(54, 54, 203);
+            font-size:1.1rem;
+        }
+
+        nav ul li a{ text-decoration: none;
+            color:white;}
+            
+        .first{
+            display: flex;
+            justify-content: space-around;
+            margin:30px 0;
+        }
+        .leftsection{
+            width:30%; 
+            font-size:3rem;
+            margin:100px;
+        }
+        .rightsection{
+            width:30%; 
+
+        }
+        .rightsection img{
+            width:80%;
+            margin: 50px 0;
+        }
+        .purple{
+          color: rgb(170, 107, 288);
+        }
+      img{
+        border-radius: 50%;
+        border:15px solid rgb(54, 54, 203);
+      }
+      .secondsection{
+        margin:auto;
+        Max-width:80vw;
+        height: 900px;
+        font-size: 30px;
+      }
+
+      main hr{
+        border:0;
+        background-color:#9c97f1;
+        height:1.2px;
+        margin:40px 84px;
+      }
+      hr{
+        border:0;
+        background-color:#9c97f1;
+        height:1.2px;
+        margin:40px 84px;
+      }
+      
+      .secondsectiondiv{
+        width:60%;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+      }
+    .aboutline{
+        height: 2px;
+        background-color: white;
+    }
+    .thirdsection{
+        margin:auto;
+        Max-width:80vw;
+        font-size: 25px;
+        height: 900px;
+    }
+    .projects{
+        display: flex;
+        justify-content: space-around;
+    }
+    .project{
+        background:white;
+        margin:20px;
+        padding:20px;
+        width:400px;
+        border-radius:10px;
+        text-align:center;
+        transition:.4s;
+        color:black;
+        
+    }
+    .project ul li{
+        list-style:none;
+    }
+    .project:hover{
+    transform:translateY(-10px);
+}
+
+    .foursection{
+        margin:auto;
+        Max-width:80vw;
+        color:white;
+        height: 900px;
+       
+    }
+    .skill{
+        margin:20px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .frontend_dev{
+        margin:20px;
+        display: flex;
+        justify-content: space-around;
+        color:black;
+    }
+    .frontend_dev_skill{
+        width:200px;
+        height: 50px;
+        background-color: white;
+        border-radius: 10px;
+        text-align:center;
+    }
+    .backend_dev{
+        margin:20px;
+        display: flex;
+        justify-content: space-around;
+        color:black;
+    }
+    .backend_dev_skill{
+        width:200px;
+        height: 50px;
+        background-color: white;
+        border-radius: 10px;
+        text-align:center;
+    }
+     .aiml_dev{
+        margin:20px;
+        display: flex;
+        justify-content: space-around;
+        color:black;
+    }
+    .aiml_dev_skill{
+        width:200px;
+        height: 50px;
+        background-color: white;
+        border-radius: 10px;
+        text-align:center;
+    }
+    .fivesection{
+        margin:auto;
+        max-width: 80vw;
+    }
+    .fivesection_dev{
+        margin:50px;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color:black;
+        height: 800px;
+        text-align: center;
+    }
+   .box_one{
+    background-color: white;
+    border-radius: 20px;
+    height: 100px;
+    font-size: 30px;
+    
+   }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="left">Adesh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project's</a></li>
+                    <li><a href="#foursection">Skill</a></li>
+                    <li><a href="#fivesection">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi,My Name is <span class="purple">Adesh Chaudhari</span>.
+                <br>
+                Currently I Study at Government Engineering College Modasa.In Computer Engineering Department.
+                <div>I am 
+                    <span id="element"></span>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="230160107007_1.jpg">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection" id="about">
+          <main>
+            <h1>About</h1>
+            <div class="secondsectiondiv">
+                <div class="aboutline"></div>
+                Hello,My name is Adesh Chaudhari. I am From visnagar,Mehsana,Gujarat.Currently I Study at Government Engineering College Modasa in Computer Engineering in 4tn year.I Khow Programming language is <span class="purple">C,JAVA,PYTHON,JAVASCRIP AND SQL</span>.
+                I build <span class="purple">Bengaluru House Price Prediction ML Project</span> that project help to user for predicting future house bases of such parameter like sqft,no badroom bathroomand balcony.And i also work on Expence Tracker Web App.
+              <br>  I Enjoy Work with AI/ML and Data Science.
+            </div> 
+        
+        </main>
+        </section>
+    </main>
+
+    <hr>
+    <section class="thirdsection" id="project">
+        <h1>Projects</h1>
+        
+          <div class="aboutline"></div>
+            <div class="projects">
+            <div class="project"><h3>Bengaluru House Price prediction</h3>
+            <p>filter the house price using sqft,no bathroom,badroom,balcony and area.</p>
+              Technoloy Uses:
+            <ul>
+                <li>Python</li>
+                <li>NumPy</li>
+                <li>Pandas</li>
+                <li>Sk-learn</li>
+            </ul></div>
+            <div class="project">
+                <h3>Personal PortFolio</h3>
+                <p>Create Protfoloio web which shows personal and professional information.</p>
+                 Technoloy Uses:
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Expance Tracker</h3>
+                <p>The web of expance tracker track the user expance and income.</p>
+                Technoloy Uses:
+                <ul>
+                    <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Node_Js</li>
+                <li>Express_Js</li>
+                <li>Mongo Db</li>
+                <li>React_Js</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <hr>
+    <section class="foursection" id="foursection">
+        <h1>Skill</h1>
+         <div class="aboutline"></div>
+        <div class="skill">
+            <h2>1.Frontend Developer</h2>
+            <div class="frontend_dev">
+                <div class="frontend_dev_skill"><h3>HTML</h3>
+                Intermideate</div>
+
+                <div class="frontend_dev_skill">
+                    <h3>CSS</h3>
+                Intermideate
+                </div>
+                <div class="frontend_dev_skill">
+                    <h3>JavaScript</h3>
+                Advance
+                </div>
+                <div class="frontend_dev_skill">
+                    <h3>React_Js</h3>
+                Intermideate
+                </div>
+            </div>
+             <h2>2.Backtend Developer</h2>
+            <div class="backend_dev">
+                <div class="backend_dev_skill"><h3>Node_Js</h3>
+                Intermideate</div>
+
+                <div class="backend_dev_skill">
+                    <h3>Express_Js</h3>
+                Intermideate
+                </div>
+                <div class="backend_dev_skill">
+                    <h3>Mongo Db</h3>
+                Intermideate
+                </div>
+                <div class="backend_dev_skill">
+                    <h3>SQL</h3>
+                Intermideate
+                </div>
+                <div class="backend_dev_skill">
+                    <h3>API</h3>
+                Intermideate
+                </div>
+            </div>
+           <h2>3.AI/ML</h2>
+            <div class="aiml_dev">
+                <div class="aiml_dev_skill"><h3>Python</h3>
+                Intermideate</div>
+
+                <div class="aiml_dev_skill">
+                    <h3>NumPy</h3>
+                Intermideate
+                </div>
+                <div class="aiml_dev_skill">
+                    <h3>Pandas</h3>
+                Intermideate
+                </div>
+                <div class="aiml_dev_skill">
+                    <h3>Matplotlib</h3>
+                Intermideate
+                </div>
+                <div class="aiml_dev_skill">
+                    <h3>Machine Learning</h3>
+                Basic
+                </div>
+            </div>
+
+        </div>
+        
+       
+    </section>
+
+ <hr>
+    <section class="fivesection" id="fivesection">
+       <div class="fivesection_dev"> <h1>Contact</h1>
+         <div class="aboutline"></div>
+        
+         <div class="box">
+            <div class="box_one"><br> <a href="https://github.com/" target="_blank">
+        <i class="fa-brands fa-github"></i><br>Github
+    </a>
+           </div>
+            <div class="box_one"> <a href="https://www.linkedin.com/in/adeshkumar-chaudhari-41565537a
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                " target="_blank">
+        <i class="fa-brands fa-linkedin"></i><br>Linkedin
+    </a></div>
+            <div class="box_one"><a href="https://instagram.com/__apchaudhari581__" target="_blank">
+        <i class="fa-brands fa-instagram"></i><br>instagram
+    </a></i></a></div>
+            <div class="box_one"><a href="adeshkumarchaudhari4@gmail.com" target="_blank">
+        <i class="fa-solid fa-envelope"></i><br>Gmail
+    </a></div>
+        </div>
+
+    </section>
+     
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+      <script> var typed = new Typed('#element', {
+      strings: [' Software Developer.', ' AI/ML Developer.'],
+      typeSpeed: 50,
+    });
+    </script>
+</body>
+</html>
